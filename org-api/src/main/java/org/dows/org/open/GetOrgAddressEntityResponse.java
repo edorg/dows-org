@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 public class GetOrgAddressEntityResponse {
 
     @Schema(description = "组织地址ID")
-    private Long OrgAddressId;
+    private Long orgAddressId;
 
     @Schema(description = "组织实例ID")
     private Long orgInstanceId;
