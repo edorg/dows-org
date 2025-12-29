@@ -86,7 +86,11 @@
                 <version>${project.version}</version>
             </dependency>
 
-
+            <dependency>
+                <groupId>org.dows.framework</groupId>
+                <artifactId>rade-config</artifactId>
+                <version>${rade.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.dows.framework</groupId>
                 <artifactId>rade-crud</artifactId>
